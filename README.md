@@ -50,13 +50,13 @@ clima_seguro_api/
    ```bash
    curl http://localhost:5000/zonas
    ```
-   ![GET](img/GET Zonas.png)
+   ![GET](img/GETZonas.png)
 
 3. 🔍 Obtener zona por ID
    ```bash
    curl http://localhost:5000/zonas/1
    ```
-   ![GET](img/GET Zonas ID.png)
+   ![GET](img/GETZonasID.png)
 
 4. ❌ Eliminar zona
    ```bash
