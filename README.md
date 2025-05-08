@@ -5,7 +5,7 @@ Este proyecto es una API REST desarrollada con Flask que permite registrar zonas
 ## 📁 Estructura del proyecto
 
 ```text
-clima_seguro_api/
+Servicios_Rest_Soap/
 ├── api/
 │   ├── __init__.py
 │   ├── routes.py
@@ -21,8 +21,8 @@ clima_seguro_api/
 
 1. **Clonar el repositorio**  
    ```bash
-   git clone https://github.com/tu_usuario/climaseguro.git
-   cd climaseguro
+   git clone https://github.com/tu_usuario/Servicios_Rest_Soap.git
+   cd Servicios_Rest_Soap
 
 2. **Instalar dependencias**
    ```bash
