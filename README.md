@@ -40,9 +40,7 @@ Servicios_Rest_Soap/
 
 1. ✅ Registrar zona
    ```bash
-   curl -X POST http://localhost:5000/zonas \
-     -H "Content-Type: application/json" \
-     -d "{\"nombre\":\"Zona Andina\",\"cultivo_principal\":\"Papa\",\"hectareas\":120,\"coordenadas\":{\"latitud\":-2.15,\"longitud\":-78.5}}"
+   curl -X POST http://localhost:5000/zonas -H "Content-Type: application/json" -d "{\"nombre\":\"Zona Andina\",\"cultivo_principal\":\"Papa\",\"hectareas\":120,\"coordenadas\":{\"latitud\":-2.15,\"longitud\":-78.5}}"
    ```
    ![POST](img/POST.png)
    
