@@ -43,19 +43,29 @@ clima_seguro_api/
    curl -X POST http://localhost:5000/zonas \
      -H "Content-Type: application/json" \
      -d "{\"nombre\":\"Zona Andina\",\"cultivo_principal\":\"Papa\",\"hectareas\":120,\"coordenadas\":{\"latitud\":-2.15,\"longitud\":-78.5}}"
-
+   ```
+   ![POST](img/POST.png)
+   
 2. 📋 Listar todas las zonas
    ```bash
    curl http://localhost:5000/zonas
+   ```
+   ![POST](img/GET.png)
 
 3. 🔍 Obtener zona por ID
    ```bash
    curl http://localhost:5000/zonas/1
+   ```
+   ![POST](img/GET.png)
 
 4. ❌ Eliminar zona
    ```bash
    curl -X DELETE http://localhost:5000/zonas/1
+   ```
+   ![POST](img/DELETE.png)
 
 5. 🌡️ Convertir temperatura (SOAP)
    ```bash
    curl "http://localhost:5000/temperatura/convertir?valor=35"
+   ```
+   ![POST](img/SOAP.png)
