@@ -36,18 +36,18 @@ clima_seguro_api/
 
 [http://localhost:5000/apidocs](http://localhost:5000/apidocs)
 
-# 🔁 Pruebas con cURL
+# 🔁 Pruebas con CURL
+
 ## ✅ Registrar zona
    ```bash
    curl -X POST http://localhost:5000/zonas \
      -H "Content-Type: application/json" \
      -d "{\"nombre\":\"Zona Andina\",\"cultivo_principal\":\"Papa\",\"hectareas\":120,\"coordenadas\":{\"latitud\":-2.15,\"longitud\":-78.5}}"
-
+   ```
 ## 📋 Listar todas las zonas
    ```bash
    curl http://localhost:5000/zonas
    ```
-
 ##🔍 Obtener zona por ID
    ```bash
    curl http://localhost:5000/zonas/1
