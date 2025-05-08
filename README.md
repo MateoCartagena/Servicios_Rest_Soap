@@ -4,17 +4,18 @@ Este proyecto es una API REST desarrollada con Flask que permite registrar zonas
 
 ## 📁 Estructura del proyecto
 
+```text
 clima_seguro_api/
 ├── api/
-│ ├── init.py
-│ ├── routes.py
-│ └── temperature.py
+│   ├── __init__.py
+│   ├── routes.py
+│   └── temperature.py
 ├── app.py
 ├── config.py
 ├── requirements.txt
 └── README.md
+```
 
----
 
 ## 🚀 Instrucciones de ejecución
 
@@ -31,6 +32,6 @@ clima_seguro_api/
    ```bash
    python main.py
 
-   ### 🌐 Acceder a la documentación Swagger
+### 🌐 Acceder a la documentación Swagger
 
 [http://localhost:5000/apidocs](http://localhost:5000/apidocs)
