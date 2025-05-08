@@ -50,22 +50,22 @@ clima_seguro_api/
    ```bash
    curl http://localhost:5000/zonas
    ```
-   ![POST](img/GET.png)
+   ![GET](img/GET Zonas.png)
 
 3. 🔍 Obtener zona por ID
    ```bash
    curl http://localhost:5000/zonas/1
    ```
-   ![POST](img/GET.png)
+   ![GET](img/GET Zonas ID.png)
 
 4. ❌ Eliminar zona
    ```bash
    curl -X DELETE http://localhost:5000/zonas/1
    ```
-   ![POST](img/DELETE.png)
+   ![DELETE](img/DELETE.png)
 
 5. 🌡️ Convertir temperatura (SOAP)
    ```bash
    curl "http://localhost:5000/temperatura/convertir?valor=35"
    ```
-   ![POST](img/SOAP.png)
+   ![SOAP](img/SOAP.png)
