@@ -30,7 +30,7 @@ Servicios_Rest_Soap/
 
 3. **Ejecutar el servidor**
    ```bash
-   python main.py
+   python app.py
 
 ## 🌐 Acceder a la documentación Swagger
 
