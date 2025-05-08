@@ -22,3 +22,15 @@ clima_seguro_api/
    ```bash
    git clone https://github.com/tu_usuario/climaseguro.git
    cd climaseguro
+
+2. **Instalar dependencias**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Ejecutar el servidor**
+   ```bash
+   python main.py
+
+   ### 🌐 Acceder a la documentación Swagger
+
+[http://localhost:5000/apidocs](http://localhost:5000/apidocs)
