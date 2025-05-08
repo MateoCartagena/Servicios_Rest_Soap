@@ -38,25 +38,25 @@ clima_seguro_api/
 
 # 🔁 Pruebas con CURL
 
-## ✅ Registrar zona
+1. ✅ Registrar zona
    ```bash
    curl -X POST http://localhost:5000/zonas \
      -H "Content-Type: application/json" \
      -d "{\"nombre\":\"Zona Andina\",\"cultivo_principal\":\"Papa\",\"hectareas\":120,\"coordenadas\":{\"latitud\":-2.15,\"longitud\":-78.5}}"
-   ```
-## 📋 Listar todas las zonas
+
+2. 📋 Listar todas las zonas
    ```bash
    curl http://localhost:5000/zonas
-   ```
-##🔍 Obtener zona por ID
+
+3. 🔍 Obtener zona por ID
    ```bash
    curl http://localhost:5000/zonas/1
-   ```
-##❌ Eliminar zona
+
+4. ❌ Eliminar zona
    ```bash
    curl -X DELETE http://localhost:5000/zonas/1
-   ```
-##🌡️ Convertir temperatura (SOAP)
+
+5. 🌡️ Convertir temperatura (SOAP)
    ```bash
    curl "http://localhost:5000/temperatura/convertir?valor=35"
-   ```
+
